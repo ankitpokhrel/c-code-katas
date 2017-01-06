@@ -2,19 +2,21 @@
 #include <math.h>
 #include <stdlib.h>
 
+#define MAX_FACTORS 25
+
 typedef struct PRIME_FACTORS
 {
-  int *factors;
-  int count;
+  unsigned long *factors;
+  unsigned long count;
 } Prime_Factor;
 
-Prime_Factor prime_factors(int n)
+Prime_Factor prime_factors(unsigned long n)
 {
     int root = (int) sqrt(n);
-    int *factors = (int *) malloc((n / 2) * sizeof(int));
+    unsigned long *factors = (unsigned long *) malloc(MAX_FACTORS * sizeof(unsigned long));
 
-    int j = 0;
-    for (int i = 2; i <= root; i++) {
+    unsigned long j = 0;
+    for (unsigned long i = 2; i <= root; i++) {
         if (n % i == 0) {
             while (n % i == 0) {
                 n = n / i;
@@ -37,15 +39,15 @@ Prime_Factor prime_factors(int n)
 
 int main()
 {
-    int n;
+    unsigned long n;
 
     printf("%s", "Enter n: ");
-    scanf("%d", &n);
+    scanf("%lu", &n);
 
     Prime_Factor factor = prime_factors(n);
 
     for (int i = 0; i < factor.count; i++) {
-        printf("%d ", factor.factors[i]);
+        printf("%lu ", factor.factors[i]);
     }
 
     return 0;
