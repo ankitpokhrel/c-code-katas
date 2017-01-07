@@ -7,6 +7,8 @@
  *
  * @param int a
  * @param int b
+ *
+ * @return void
  */
 void print_fibonacci_series(int a, int b)
 {
@@ -26,7 +28,7 @@ void print_fibonacci_series(int a, int b)
  *
  * @param int n
  *
- * @return
+ * @return unsigned long
  */
 unsigned long num_fibonacci(int n)
 {
@@ -44,7 +46,7 @@ unsigned long num_fibonacci(int n)
  * @param int b
  * @param int c
  *
- * @return
+ * @return unsigned long
  */
 unsigned long sum_even_fibonacci(int a, int b, int c)
 {
