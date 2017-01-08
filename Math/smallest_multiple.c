@@ -2,6 +2,7 @@
 #include <math.h>
 #include <stdlib.h>
 #include <assert.h>
+#include <stdbool.h>
 
 #define MAX_FACTORS 25
 
@@ -138,12 +139,54 @@ unsigned long long smallest_multiple(int num)
     return multiple;
 }
 
+/**
+ * Efficient way to calculate smallest multiple
+ * evenly divisible up to given number.
+ *
+ * @param num
+ *
+ * @return unsigned long long
+ */
+unsigned long long smallest_multiple_efficient(int num)
+{
+    unsigned long long multiple = 1;
+
+    int limit = (int) sqrt(num);
+    bool check = true;
+
+    int primes[MAX_FACTORS] = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53};
+    int count[MAX_FACTORS];
+
+    int i = 0;
+    while (primes[i] <= num) {
+        count[i] = 1;
+        if (check) {
+            if (primes[i] <= limit) {
+                count[i] = (int) floor(log(num) / log(primes[i]));
+            } else {
+                check = false;
+            }
+        }
+
+        multiple *= pow(primes[i], count[i]);
+
+        i++;
+    }
+
+    return multiple;
+}
+
 int main()
 {
     assert(60 == smallest_multiple(5));
     assert(2520 == smallest_multiple(10));
     assert(232792560 == smallest_multiple(20));
     assert(2329089562800 == smallest_multiple(30));
+
+    assert(60 == smallest_multiple_efficient(5));
+    assert(2520 == smallest_multiple_efficient(10));
+    assert(232792560 == smallest_multiple_efficient(20));
+    assert(2329089562800 == smallest_multiple_efficient(30));
 
     return 0;
 }
