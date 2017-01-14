@@ -38,7 +38,7 @@ unsigned long long square_of_sum(int limit)
 
 /**
  * Sum of squares of N sequence is given by
- * (N * (N+1) * (2N+1)) / 6
+ * (N * (N+1) * (2N+1)) / 6.
  *
  * @param int limit
  *
@@ -51,7 +51,7 @@ unsigned long long sum_of_squares_efficient(int limit)
 
 /**
  * Sum of digits of N sequence is given by
- * (N * (N+1)) / 2
+ * (N * (N+1)) / 2.
  *
  * @param int limit
  *

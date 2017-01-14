@@ -67,7 +67,7 @@ int in_array(int needle, int *haystack, int length)
 
 /**
  * Count number of occurrence given number
- * in an array
+ * in an array.
  *
  * @param int needle
  * @param int[] haystack

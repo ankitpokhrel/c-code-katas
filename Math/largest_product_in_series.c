@@ -11,7 +11,7 @@
 #define NUMBER_LENGTH 1000
 
 /**
- * Get product of digits of numeric string
+ * Get product of digits of numeric string.
  *
  * @param char num
  *
