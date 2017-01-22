@@ -1,5 +1,6 @@
 /**
- * Sum of all multiples of 3 and 5 below 1000
+ * Multiples of 3 and 5.
+ * https://projecteuler.net/problem=1
  */
 #include <stdio.h>
 

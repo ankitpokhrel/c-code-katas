@@ -1,3 +1,8 @@
+/**
+ * Smallest multiple.
+ * https://projecteuler.net/problem=5
+ */
+
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
