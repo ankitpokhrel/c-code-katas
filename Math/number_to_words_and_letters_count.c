@@ -1,5 +1,5 @@
 /**
- * Program to convert number to words and Number letter counts.
+ * Program to convert number to words and Number letters count.
  * https://projecteuler.net/problem=17
  */
 
