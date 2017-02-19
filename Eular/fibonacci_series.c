@@ -1,3 +1,8 @@
+/**
+ * Fibonacci series and even Fibonacci numbers.
+ * https://projecteuler.net/problem=2
+ */
+
 #include <stdio.h>
 
 #define LIMIT 4000000
