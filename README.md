@@ -24,6 +24,15 @@ Data Structure and Algorithms
 - **Tree**
   1. [Binary Search Tree](DSA/Tree/binary_search_tree.c)
   
+  
+Math
+----
+1. [Factors](Math/factors.c)
+2. [Common factors](Math/common_factors.c)
+3. [Greatest Common Divisor](Math/gcd.c)
+4. [Euclid GCD](Math/euclid_gcd.c)
+5. [Prime](Math/is_prime.c)
+6. [Prime Factors](Math/prime_factors.c)
 
 Project Eular
 ----------------------
