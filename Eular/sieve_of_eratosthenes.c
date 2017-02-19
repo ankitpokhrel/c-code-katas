@@ -1,6 +1,8 @@
 /**
  * Sieve of eratosthenes.
+ * 
  * https://projecteuler.net/problem=7
+ * https://projecteuler.net/problem=10
  */
 
 #include <stdio.h>
