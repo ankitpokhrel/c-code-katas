@@ -38,7 +38,7 @@ Project Eular
 ----------------------
 1. [Multiples of 3 and 5](Eular/sum_of_multiples_of_3_5.c)
 2. [Even Fibonacci numbers](Eular/fibonacci_series.c)
-3. [Largest prime factor](Eular/sieve_of_eratosthenes.c)
+3. [Largest prime factor](Math/prime_factors.c)
 4. [Largest palindrome product](Eular/palindrome_of_numbers.c)
 5. [Smallest multiple](Eular/smallest_multiple.c)
 6. [Sum square difference](Eular/sum_square_difference.c)
