@@ -24,7 +24,17 @@ Data Structure and Algorithms
 - **Tree**
   1. [Binary Search Tree](DSA/Tree/binary_search_tree.c)
   
-  
+    
+Recursion
+---------
+1. [Tower of Hanoi](Recursion/tower_of_hanoi.c)
+2. [Nth Fibonacci Number](Recursion/nth_fibonacci_number.c)
+3. [Factorial](Recursion/factorial.c)
+4. [Sum of Digits](Recursion/sum_of_digits.c)
+5. [Palindrome](Recursion/palindrome.c)
+6. [String Reverse](Recursion/str_reverse.c)
+7. [Character Replace](Recursion/char_replace.c)
+
 Math
 ----
 1. [Factors](Math/factors.c)
