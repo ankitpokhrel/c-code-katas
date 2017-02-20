@@ -34,6 +34,7 @@ Recursion
 5. [Palindrome](Recursion/palindrome.c)
 6. [String Reverse](Recursion/str_reverse.c)
 7. [Character Replace](Recursion/char_replace.c)
+8. [Linear Search](Recursion/linear_search.c)
 
 Math
 ----
