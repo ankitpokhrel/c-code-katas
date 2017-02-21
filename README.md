@@ -35,6 +35,8 @@ Recursion
 6. [String Reverse](Recursion/str_reverse.c)
 7. [Character Replace](Recursion/char_replace.c)
 8. [Linear Search](Recursion/linear_search.c)
+9. [Binary Search](Recursion/binary_search.c)
+10. [Ackermann Function](Recursion/ackermann.c)
 
 Math
 ----
