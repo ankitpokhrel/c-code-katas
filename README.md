@@ -66,3 +66,5 @@ Project Eular
 15. [Lattice Paths](Eular/lattice_paths.c)
 16. [Power Digit Sum](Eular/power_digit_sum.c)
 17. [Number Letter Counts](Eular/number_to_words_and_letters_count.c)
+18. [Maximum Path Sum I](Eular/maximum_path_sum_1.c)
+
