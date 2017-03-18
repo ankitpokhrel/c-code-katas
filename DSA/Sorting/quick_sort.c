@@ -17,7 +17,7 @@ int partition(int *input, int start, int end)
     int pivot = start;
 
     for (int i = start; i < end; i++) {
-        if (input[i] <= input[end]) {
+        if (input[i] < input[end]) {
             swap(input + i, input + pivot);
             pivot++;
         }
