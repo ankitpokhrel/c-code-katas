@@ -24,6 +24,9 @@ Data Structure and Algorithms
 - **Tree**
   1. [Binary Search Tree](DSA/Tree/binary_search_tree.c)
   
+- **Misc**
+  1. [Luhn Algorithm](DSA/Misc/luhn.c)
+  
     
 Recursion
 ---------
