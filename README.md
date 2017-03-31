@@ -26,6 +26,7 @@ Data Structure and Algorithms
   
 - **Misc**
   1. [Luhn Algorithm](DSA/Misc/luhn.c)
+  2. [Reservoir Sample](DSA/Misc/reservoir_sample.c)
   
     
 Recursion
